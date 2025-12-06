@@ -1,0 +1,471 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+}
+body{
+    background-color:#8fa31c
+}
+.logo >img{
+    height: 80px;
+    width: 100px;
+    left: 80px;
+    position: relative;
+    transform: scale(1.2);
+    bottom:10px ;
+}
+.head {
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    padding-top: 10px;
+    background-color: white;
+    border-bottom: 1px solid #8fa31c;
+
+}
+.nav-links {
+    display: flex;
+    gap: 35px;
+    left: 250px;
+    position: relative;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.socialmedia {
+    position: absolute;
+    right:100px;
+    
+}
+.socialmedia > img{
+    height: 33px;
+    width: 60px;
+    margin: 0 10px;
+}
+.image1 >img{
+    width: 100%;
+    height: 85vh;
+    top: -23px;
+    position: relative;
+
+    
+}
+.socialmedia:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.body1 {
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 31%, #ffa0cc);
+    padding: 40px 20px;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+}
+
+.body1 >h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+
+}
+.body1 >h6{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.body1 >p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 20px;
+    line-height: 1.5;
+}
+.body1 >img{
+    height: 130px;
+    width: 130px;
+    display: block;
+    transform: rotateZ(35deg);
+    left: 50px;
+    bottom: 250px;
+    position: relative;
+
+
+}
+.grid{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    justify-content: center;
+}
+.box1{
+    width: 250px;
+    height: 400px;
+    position: relative;
+    background: linear-gradient(to bottom, green 30%, white
+    );
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: top;
+    font-size: 20px;
+    
+}
+.box2{
+    width: 250px;
+    position: relative;
+    background: linear-gradient(to bottom, yellow 30%, white);
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.box3{
+    width: 250px;
+    position: relative;
+    background: linear-gradient(to bottom, rgb(255, 44, 79) 30%, white);
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: 20px;
+}
+.box1 >img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    
+    position: relative;
+    bottom: 100px;
+}
+.box2 >img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    
+    position: relative;
+    bottom: 100px;
+}
+.box3 >img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    
+    position: relative;
+    bottom: 100px;
+}
+.box1:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.box2:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+.box3:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+.grid1{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.box4{
+    width: 300px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 70px;
+    border-radius: 40px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+.box4 >img{
+    width: 240px;
+    height: 260px;
+    position: relative;
+    border-radius: 2px;
+}
+.im1{
+    transition: 1s;
+
+}
+.im1:hover{
+    transform: scale(1.1);
+    
+
+}
+
+.box5{
+    width: 250px;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    top: 70px;
+
+}
+.box5 >h2{
+    color: rgb(175, 126, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.box5 >img{
+    width: 240px;
+    height: 260px;
+    position: relative;
+    border: rgb(199, 152, 0);
+}
+.box6 {
+    width: 250px;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 70px;
+    background-color: white;
+}
+.box6 >h2{
+    color: rgb(175, 126, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.box6 >img{
+    width: 240px;
+    height: 260px;
+    position: relative;
+    border: rgb(199, 152, 0);
+}
+.grid2 {
+    margin: 0px;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    background-color: rgb(245, 214, 176);
+    padding: 100px;
+    justify-content: center;
+    
+   
+}
+.grid2 >h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    justify-content: center;
+    
+}
+
+.flavors{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: antiquewhite;
+    position: relative;
+    bottom: 30px;
+    height: 180vh;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 40px 60px;
+    
+
+
+
+}
+.grid3 > img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden; 
+    padding: 10px;
+    
+
+}
+.b1 img{
+    width: 350px;
+    height: 500px;
+    
+}
+.flavors >button{
+    background-color: rgb(255, 187, 0);
+    color: black;
+    height: 40px;
+    width: 180px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 10px;
+    margin: auto;
+
+}
+.flavors a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.color {
+    background-color: antiquewhite;
+    position: relative;
+    bottom: 20px;
+
+}
+.choose-section {
+  display: flex;
+  width: 200vh;
+  margin-left: 70px;
+  padding: 0;
+}
+
+.choose-img img {
+  width: 100vh;
+  height: 75vh;
+  object-fit: cover;
+  display: block;
+  padding-bottom: 40px  ;
+}
+
+.choose-img,
+.choose-text {
+  flex: 1; 
+
+}
+
+.choose-text {
+  background-color: green;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  height: 74vh;
+  position: relative;
+  top: 20px;
+}
+.choose-text h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.choose-text >p{
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+}
+.button{
+    align-self: self-end;
+    background-color: rgb(231, 218, 27);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 46px;
+}
+.sub{
+    background-color:white;
+    height: 135vh;
+    padding-top:0px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    max-width: 500px;
+    gap: 20px;
+    position: relative;
+    top: 200px;
+}
+.fbox{
+    height: 500px;
+    width: 110vh;
+    background-color:#fff6ec;
+    margin: auto;
+    position: relative;
+    bottom: 10px;
+}
+#name{
+    width: 95vh;
+    height: 40px;
+    padding: 12px;
+    font-size: 16px;
+    align-items: center;
+    margin-top: 60px;
+   
+}
+#mail{
+    width: 95vh;
+    height: 40px;
+    padding: 12px;
+    font-size: 20px;
+}
+#upload{
+    width: 95vh;
+    height: 40px;
+    text-align: center;
+}
+
+    
+#msg{
+    width: 100%;
+    height: 250px;
+    font-size: 20px;
+}
+.sub >h1{
+    text-align:center;
+    padding: 10px;
+    font-size: 30px;
+    position: relative;
+    left: 160px;
+    top: 200px;
+
+
+}
+.sub >img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left:450px;
+    top: 40px;
+}
+.base{
+    background-color: black;
+    height: 25vh;
+    margin-top: -50px;
+}
+.footer{
+    background-color: black;
+    margin-top: -40px;
+    color: white;
+    padding: 40px 20px;
+   
+}
+.baselog{
+  display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin: auto;
+}
+
