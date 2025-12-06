@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Tickets, Plays, Sports, Events & Cinemas nearby - BookMyShow</title>
+    <link rel="stylesheet" href="./bms.css">
+    <link rel="icon" href="https://e7.pngegg.com/pngimages/919/445/png-clipart-bookmyshow-office-android-ticket-android-text-logo.png">
+</head>
+
+<body>
+    <div class="bms">
+        <header>
+            <div class="logo">
+                <img height="70px"
+                    src="data:image/png;base64,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"
+                    alt="">
+            </div>
+            <div class="search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+                <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activitie">
+            </div>
+            <div class="account">
+                <select name="" id="">
+                    <option value="">Banglore</option>
+                    <option value="">Mumbai</option>
+                    <option value="">Chennai</option>
+                </select>
+                <button>Sign In</button>
+                
+                
+            </div>
+        </header>
+        <nav>
+            <div class="link1">
+                <a href="">Movie</a>
+                <a href="">Stream</a>
+                <a href="">Events</a>
+                <a href="">Plays</a>
+                <a href="">Sports</a>
+                <a href="">Activities</a>
+            </div>
+            <div class="link2">
+                <a href="">Corperats</a>
+                <a href="">List your Shows</a>
+                <a href="">Offers</a>
+                <a href="">Gift Cards</a>
+            </div>
+        </nav>
+        <div class="content_scroll">
+        <marquee behavior="" direction="">
+            <img src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1744877848242_revplaycard1240x300.jpg"
+                alt=""><img
+                src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1753181028757_22julchithra45web.jpg"
+                alt="">
+            <img src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1751268402268_weblawofkarmadecodedjayarowtalkbengaluru.jpg"
+                alt="">
+        </marquee>
+        </div>
+        <div class="content_recom">
+        <h1>Movie Recommandation</h1> 
+        <a href="">See All</a>   
+        </div>
+        <div class="content_img">
+            <section>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS43LzEwICAxMzguNEsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00429289-lhvxfgaczw-portrait.jpg" alt="">
+                <h2>Mahavatar Narsimha</h2>
+                <p>Action/Animation/Drama</p>
+
+            </section>
+            <section>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny43LzEwICAxMy4xSyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00450471-urmlmaranx-portrait.jpg" alt="">
+                <h2>Son of Sardaar 2</h2>
+                <p>Comedy/Family/Romantic</p>
+
+            </section>
+            <section>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAyMDkuMUsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00447951-besqwckxum-portrait.jpg" alt="">
+                <h2>Saiyaara</h2>
+                <p>Drama/Musical/Romantic</p>
+
+            </section>
+        
+            <section>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC8xMCAgMTAuN0sgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00399488-cyagpzwkcw-portrait.jpg" alt="">
+                <h2>Dhadak 2</h2>
+                <p>Drama/Romantic</p>
+
+            </section>
+            <section>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC41LzEwICAyOS45SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00432123-qubrfckyfv-portrait.jpg" alt="">
+                <h2>The Fantastic Four </h2>
+                <p>Action/Adventure/Sci-Fi</p>
+
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

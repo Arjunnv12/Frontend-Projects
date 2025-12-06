@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ header{
+    height: 80px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+ }
+ .search >input{
+    height: 30px;
+    width: 500px;
+    position: relative;
+    right: 150px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+ }
+ .logo >img{
+    position: relative;
+    left: 40px;
+ }
+ .bms{
+    background-color: rgb(241, 245, 249);
+ }
+ .account{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .account select{
+    border: none;
+ }
+ .account button{
+    background-color: crimson;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+ }
+ nav{
+    background-color:  rgb(241, 245, 249);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    height: 40px;
+    align-items: center;
+
+ }
+ .search svg{
+   position: relative;
+   z-index: 1;
+   right: 150px;
+   top: 3px;
+   color: gray;
+ }
+ nav a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 5px;
+ }
+ .content_scroll{
+    background-color: gainsboro;
+ }
+ .content_scroll img{
+    border-radius: 10px;
+    margin: 5px;
+    
+ }
+.content_recom{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 40px;
+}
+.content_recom h1{
+   position: relative;
+   left: 30px;
+}
+.content_recom a{
+   text-decoration: none;
+   color: red;
+}
+.content_img img{
+   
+   border-radius: 20px;
+   height: 292px;
+   width: 192px;position: relative;
+   top: 50px;
+   transition: 1s;
+}
+.content_img{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 30px;
+   position: relative;
+   left: 20px;
+   margin-bottom:90px ;
+   
+
+}
+.content_img img:hover{
+   position: relative;
+   top: 0px;
+}
+
+.content_img h2{
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.content_img p{
+   font-family: Arial, Helvetica, sans-serif;
+   color: grey;
+}
